@@ -1,0 +1,42 @@
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>РГЗ по интернет-программированию</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
+    </head>
+        <header>
+            <marquee behavior = 'alternate'>хочешь суперкар в новосибирске? Тогда ты по адресу</marquee>
+
+            <h2>Автодилер Алексей Мишков</h2>
+        </header>
+    <body onload="generateMenu()">
+
+       <nav class="main-menu">
+           <ul>
+           </ul>
+       </nav>
+ 
+       <main>
+           <section class="map">
+                <div class="container">
+                <h2>ул. Большевистская, 276/1, Новосибирск, Новосибирская обл., 630028 <br> Контактный телефон: 8 (383) 312-13-34 <br> Ежедневно с 08:00 до 20:00</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.5870672251967!2d83.00126518245348!3d54.982890887016104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe90dc67d2a4d%3A0x2dc3e2f68f3192a3!2z0KbQtdC90YLRgCDQndCh0JosINCe0YTQuNGG0LjQsNC70YzQvdGL0Lkg0LTQuNC70LXRgCBLaWEg0LIg0J3QvtCy0L7RgdC40LHQuNGA0YHQutC1!5e0!3m2!1sru!2sru!4v1653818705015!5m2!1sru!2sru" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+        <footer>
+           &copy; Автодилер Алексей Мишков все права защищены
+           все персонажи вымышлены
+
+        </footer>
+        <div class="overlay" onclick="hideModal()"></div>
+        <div class="modal">
+           <div class="message">
+              </div>
+              <button onclick="hideModal()"></button>
+        </div>
+
+
+    </body>
+    
+</html>
