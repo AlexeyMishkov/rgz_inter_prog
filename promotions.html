@@ -1,0 +1,76 @@
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>РГЗ по интернет-программированию</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
+    </head>
+        <header>
+            <marquee behavior = 'alternate'>хочешь суперкар в новосибирске? Тогда ты по адресу</marquee>
+
+            <h2>Автодилер Алексей Мишков</h2>
+        </header>
+    <body onload="generateMenu()">
+
+       <nav class="main-menu">
+           <ul>
+           </ul>
+       </nav>
+ 
+       <main>
+        <div class="coupon">
+            <div class="container">
+                <h1>Скидка малоимущим</h1>
+            </div>
+            <img src="bednyak.jpg" alt="Avatar" style="width:100%;">
+            <div class="container">
+                <h2><b>Хочешь купить суперкар, но ты бедный? получи скидку в -99% - бизнес не главное</b></h2>
+                <p>Если ты бедный, покажи свой счёт в банке и предоставим вам скидку</p>
+                <p class="expire">Cрок действия акции не ограничен</p>
+            </div>
+        </div>
+            
+
+        <div class="coupon">
+            <div class="container">
+                <h1>День рождение? получи скидку</h1>
+            </div>
+            <img src="birthday.jpg" alt="Avatar" style="width:100%;">
+            <div class="container">
+                <h2><b>У тебя сегодня день рождение? тогда ты получишь скидку в размере -10% на любой товар</b></h2>
+                <p>Чтобы получить скидку покажи свой паспорт</p>
+            </div>
+                <p class="expire">Cрок действия акции не ограничен</p>
+            </div>
+        </div>
+
+        <div class="coupon">
+            <div class="container">
+                <h1>Пенсионер?</h1>
+            </div>
+            <img src="pens.jpg" alt="Avatar" style="width:100%;">
+            <div class="container">
+                <h2><b>С пенсии накопил, да? ага, так и поверим, получи скидку в размере +100%, олигарх емае</b></h2>
+                <p>Покажи паспорт, чтобы убедиться что тебе меньше 65 если не хочешь наценку в 100%</p>
+            </div>
+                <p class="expire">Cрок действия акции не ограничен</p>
+            </div>
+        </div>
+
+        </main>
+        <footer>
+           &copy; Автодилер Алексей Мишков все права защищены
+           все персонажи вымышлены
+
+        </footer>
+        <div class="overlay" onclick="hideModal()"></div>
+        <div class="modal">
+           <div class="message">
+              </div>
+              <button onclick="hideModal()"></button>
+        </div>
+
+
+    </body>
+    
+</html>
